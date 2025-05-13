@@ -1,0 +1,15 @@
+{
+  "function": "set_components",
+  "components": {
+    "minecraft:custom_name": "{\"text\":\"Potion of Weakness\",\"italic\":false}",
+    "minecraft:potion_contents": {
+      "custom_effects": [
+        {
+          "id": "minecraft:weakness",
+          "amplifier": 0,
+          "duration": 72000
+        }
+      ]
+    }
+  }
+}
