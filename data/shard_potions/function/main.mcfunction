@@ -45,4 +45,4 @@ item modify entity @a[nbt={SelectedItem: {id:"minecraft:potion", components: {"m
 item modify entity @a[nbt={SelectedItem: {id:"minecraft:potion", components: {"minecraft:potion_contents": {potion: "minecraft:strong_poison"}}}}] weapon.mainhand shard_potions:strong_poison
 
 
-schedule function shard_potions:vanilla_potions 1s replace
+schedule function shard_potions:main 1s replace

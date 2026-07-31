@@ -1,1 +1,1 @@
-schedule function shard_potions:vanilla_potions 1s replace
+schedule function shard_potions:main 1s replace
