@@ -1,0 +1,23 @@
+{
+  "parent": "shard_potions:potions/root",
+  "criteria": {
+    "drank": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:long_night_vision"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shard_potions:effects/long_night_vision"
+  }
+}
